@@ -13,7 +13,7 @@ harness/loops, MCP servers — and turns each into experience articles for
 - **Roles (do not cross):** the human is 导演 / 主播 / 试吃员 and is the only
   one who gives the final taste verdict (锐评). The agent is 策划 / 后厨: it
   sets up tests, runs candidates, captures evidence, and drafts frames.
-- **Two review formats:** 横评 (擂台 head-to-head — same standard task, ranked)
+- **Two review formats:** 横评 (head-to-head — same standard task, ranked)
   and 竖评 (single flagship deep-dive).
 - **Rating ladder (从夯到拉, real internet tier-list slang):** S 夯 · A 顶级 ·
   B 人上人 · C NPC · D 拉(完了). "照骗 / 名不副实" (菜单 vs 实物 gap) is

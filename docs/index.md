@@ -22,7 +22,7 @@ features:
     details: 五段位 —— 夯 / 顶级 / 人上人 / NPC / 拉。每个结论都挂 L1 实测证据才下。
     link: /about/rating
   - icon: ⚔️
-    title: 横评擂台 · 竖评深扒
+    title: 横评 · 竖评深扒
     details: 同品类同题对撞排梯队;明星单品多场景深扒。靠对比逼照骗现形。
     link: /about/method
   - icon: 🛡️

@@ -1,5 +1,5 @@
 ---
-title: EP02 · 内容创作擂台
+title: EP02 · 内容创作横评
 season: 1
 episode: 2
 category: 内容创作
@@ -12,10 +12,10 @@ import { data } from '../../.vitepress/theme/contestants.data'
 const groups = data.filter(g => g.episode === 2)
 </script>
 
-# EP02 · 内容创作擂台
+# EP02 · 内容创作横评
 
 ::: warning 状态:📋 待测
-擂台综述页:横向对比 + 排名。每个 skill 的详细试吃在各自文章里(点卡片进)。
+横评综述页:横向对比 + 排名。每个 skill 的详细试吃在各自文章里(点卡片进)。
 :::
 
 同一篇稿子,几个写作 skill 写出来,哪个能用、哪个一眼 AI。

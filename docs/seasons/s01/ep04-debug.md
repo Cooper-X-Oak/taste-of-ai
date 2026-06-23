@@ -1,5 +1,5 @@
 ---
-title: EP04 · 测试调试擂台
+title: EP04 · 测试调试横评
 season: 1
 episode: 4
 category: 测试调试
@@ -12,10 +12,10 @@ import { data } from '../../.vitepress/theme/contestants.data'
 const groups = data.filter(g => g.episode === 4)
 </script>
 
-# EP04 · 测试调试擂台
+# EP04 · 测试调试横评
 
 ::: warning 状态:📋 待测
-擂台综述页:横向对比 + 排名。每个 skill 的详细试吃在各自文章里(点卡片进)。
+横评综述页:横向对比 + 排名。每个 skill 的详细试吃在各自文章里(点卡片进)。
 :::
 
 同一个 bug,号称会 debug 的 skill,真上手谁定位得准、谁翻车。

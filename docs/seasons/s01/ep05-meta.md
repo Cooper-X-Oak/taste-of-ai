@@ -1,5 +1,5 @@
 ---
-title: EP05 · Skill·Agent 元治理擂台
+title: EP05 · Skill·Agent 元治理横评
 season: 1
 episode: 5
 category: Skill·Agent 元治理
@@ -12,10 +12,10 @@ import { data } from '../../.vitepress/theme/contestants.data'
 const groups = data.filter(g => g.episode === 5)
 </script>
 
-# EP05 · Skill·Agent 元治理擂台
+# EP05 · Skill·Agent 元治理横评
 
 ::: warning 状态:📋 待测
-擂台综述页:横向对比 + 排名。每个 skill 的详细试吃在各自文章里(点卡片进)。
+横评综述页:横向对比 + 排名。每个 skill 的详细试吃在各自文章里(点卡片进)。
 :::
 
 用 skill 测 skill、放手让 agent 自己跑 —— 这些管 skill / 编 agent 的工具,自己靠不靠谱。

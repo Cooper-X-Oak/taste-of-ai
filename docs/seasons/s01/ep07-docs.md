@@ -1,5 +1,5 @@
 ---
-title: EP07 · 文档处理擂台
+title: EP07 · 文档处理横评
 season: 1
 episode: 7
 category: 文档处理
@@ -12,10 +12,10 @@ import { data } from '../../.vitepress/theme/contestants.data'
 const groups = data.filter(g => g.episode === 7)
 </script>
 
-# EP07 · 文档处理擂台
+# EP07 · 文档处理横评
 
 ::: warning 状态:📋 待测
-擂台综述页:横向对比 + 排名。官方 docx / pdf / pptx / xlsx 当卫冕,社区挑战者待补。
+横评综述页:横向对比 + 排名。官方 docx / pdf / pptx / xlsx 已入场,社区挑战者后续再补。
 :::
 
 同一份文档活(Word / PDF / PPT / Excel),官方 skill 和社区方案谁产出能直接用。

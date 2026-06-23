@@ -1,5 +1,5 @@
 ---
-title: EP03 · 前端设计擂台
+title: EP03 · 前端设计横评
 season: 1
 episode: 3
 category: 前端设计
@@ -12,10 +12,10 @@ import { data } from '../../.vitepress/theme/contestants.data'
 const groups = data.filter(g => g.episode === 3)
 </script>
 
-# EP03 · 前端设计擂台
+# EP03 · 前端设计横评
 
 ::: warning 状态:📋 待测
-擂台综述页:横向对比 + 排名。每个 skill 的详细试吃在各自文章里(点卡片进)。
+横评综述页:横向对比 + 排名。每个 skill 的详细试吃在各自文章里(点卡片进)。
 :::
 
 同一个页面需求,几个前端 skill 谁做出设计感,谁在套模板。

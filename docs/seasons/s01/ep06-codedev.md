@@ -1,5 +1,5 @@
 ---
-title: EP06 · 代码审查 & 开发流擂台
+title: EP06 · 代码审查 & 开发流横评
 season: 1
 episode: 6
 category: 代码开发
@@ -12,10 +12,10 @@ import { data } from '../../.vitepress/theme/contestants.data'
 const groups = data.filter(g => g.episode === 6)
 </script>
 
-# EP06 · 代码审查 & 开发流擂台
+# EP06 · 代码审查 & 开发流横评
 
 ::: warning 状态:📋 待测
-擂台综述页:横向对比 + 排名。每个 skill 的详细试吃在各自文章里(点卡片进)。
+横评综述页:横向对比 + 排名。每个 skill 的详细试吃在各自文章里(点卡片进)。
 :::
 
 同一份 PR / 功能,这些 review 和开发流 skill 谁挑得出真问题,谁走过场。

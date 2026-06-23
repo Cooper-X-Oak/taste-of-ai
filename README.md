@@ -16,14 +16,14 @@ docs/
 ├── index.md              门户首页
 ├── about/                节目宝典 / 评级体系 / 评测方法论
 ├── skills/<name>/        每个 skill:index.md(文章)+ notes.md(资料区)
-├── seasons/s01/          第一季 8 期擂台「综述」(对比 + 排名)
+├── seasons/s01/          第一季 8 期横评「综述」(对比 + 排名)
 ├── roster.md             选手表(卡片 → 各 skill 文章)
 ├── indexes/              从夯到拉总榜 / 避雷红榜 / 按 skill 索引
 └── public/evidence/<name>/  L1 实测证据(截图)
 scripts/                  new-skill 脚手架 + S1 批量生成
 ```
 
-skill 页是唯一事实源:它的 frontmatter 自动喂给选手表、索引、擂台综述。
+skill 页是唯一事实源:它的 frontmatter 自动喂给选手表、索引、横评综述。
 
 ```bash
 npm run new-skill -- <名字> <品类> <第几期>   # 新增一个 skill 页(文章+资料区+证据目录)

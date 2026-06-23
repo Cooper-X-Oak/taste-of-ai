@@ -1,5 +1,5 @@
 ---
-title: EP01 · 调研搜索擂台
+title: EP01 · 调研搜索横评
 season: 1
 episode: 1
 category: 调研搜索
@@ -12,10 +12,10 @@ import { data } from '../../.vitepress/theme/contestants.data'
 const groups = data.filter(g => g.episode === 1)
 </script>
 
-# EP01 · 调研搜索擂台
+# EP01 · 调研搜索横评
 
 ::: warning 状态:📋 待测
-擂台综述页:横向对比 + 排名。每个 skill 的详细试吃在各自文章里(点卡片进)。
+横评综述页:横向对比 + 排名。每个 skill 的详细试吃在各自文章里(点卡片进)。
 :::
 
 同样一个调研任务,这几个 skill 谁能交活,谁在划水。

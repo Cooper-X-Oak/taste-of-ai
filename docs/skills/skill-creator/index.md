@@ -1,7 +1,7 @@
 ---
 title: skill-creator
 skill: skill-creator
-category: Skill 元治理
+category: Skill·Agent 元治理
 season: 1
 episode: 5
 format: 横评

@@ -1,8 +1,8 @@
 ---
-title: EP04 · 调试排错擂台
+title: EP04 · 测试调试擂台
 season: 1
 episode: 4
-category: 调试排错
+category: 测试调试
 format: 横评
 status: draft
 ---
@@ -12,7 +12,7 @@ import { data } from '../../.vitepress/theme/contestants.data'
 const groups = data.filter(g => g.episode === 4)
 </script>
 
-# EP04 · 调试排错擂台
+# EP04 · 测试调试擂台
 
 ::: warning 状态:📋 待测
 擂台综述页:横向对比 + 排名。每个 skill 的详细试吃在各自文章里(点卡片进)。

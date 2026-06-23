@@ -1,9 +1,9 @@
 ---
 title: council
 skill: council
-category: Agent 编排
+category: Skill·Agent 元治理
 season: 1
-episode: 6
+episode: 5
 format: 横评
 tier: null
 status: draft

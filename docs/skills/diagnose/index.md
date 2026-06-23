@@ -1,7 +1,7 @@
 ---
 title: diagnose
 skill: diagnose
-category: 调试排错
+category: 测试调试
 season: 1
 episode: 4
 format: 横评

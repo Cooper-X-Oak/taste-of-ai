@@ -10,15 +10,15 @@
 | [01](./ep01-research) | 🔍 调研搜索 | 全网调研 skill,谁能交活、谁在划水 | 📋 待测 |
 | [02](./ep02-content) | ✍️ 内容创作 | 几个写作 skill,哪个能用、哪个一眼 AI | 📋 待测 |
 | [03](./ep03-frontend) | 🎨 前端设计 | 前端 skill,谁做出设计感、谁在套模板 | 📋 待测 |
-| [04](./ep04-debug) | 🛠️ 调试排错 | 号称会 debug 的 skill,谁定位得准、谁翻车 | 📋 待测 |
-| [05](./ep05-meta) | 🧰 Skill 元治理 | 用 skill 测 skill,管 skill 的工具自己靠不靠谱 | 📋 待测 |
-| [06](./ep06-orchestration) | 🤖 Agent 编排 | 放手让 agent 自己跑,谁稳住、谁失控 | 📋 待测 |
-| [07](./ep07-bundle) | 📦 群组拆包特赛 | 打包成 plugin,省事还是添乱 | 📋 待测 |
+| [04](./ep04-debug) | 🧪 测试调试 | 号称会 debug 的 skill,谁定位得准、谁翻车 | 📋 待测 |
+| [05](./ep05-meta) | 🧰 Skill·Agent 元治理 | 用 skill 测 skill、放手跑 agent,工具自己靠不靠谱 | 📋 待测 |
+| [06](./ep06-codedev) | 🔬 代码审查 & 开发流 | review/开发流 skill 谁挑出真问题、谁走过场 | 📋 待测 |
+| [07](./ep07-docs) | 📄 文档处理 | 官方 docx/pdf/pptx/xlsx vs 社区,谁产出能直接用 | 📋 待测 |
 | [08](./ep08-finals) | 🏆 季终总决赛 | 全季段位总榜 + 避雷合辑 + S2 预告 | 📋 待测 |
 
 ## 节奏
 
-01 开场 → 02–04 逐类横评 → 05 用 skill 测 skill → 06 放手跑 agent → 07 群组拆包(埋 S2)→ 08 总榜收束。
+01 开场 → 02–04 逐类横评 → 05 用 skill 测 skill / 跑 agent → 06 代码审查 → 07 文档处理 → 08 总榜收束。
 
 ## 本季总榜
 

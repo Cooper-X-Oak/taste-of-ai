@@ -3,14 +3,17 @@ import { createContentLoader } from 'vitepress'
 // Skill pages (skills/<name>/index.md) are the single source of truth.
 // Add a skill page -> a card shows up. Set `tier` in its frontmatter ->
 // the badge lights up. Roster / indexes / episode pages all derive from here.
+// Categories grounded in Anthropic's official baseline (anthropics/skills +
+// claude-plugins-official). Single source of truth for the category set —
+// `category` frontmatter must match a key here. See AGENTS.md §5.
 const EMOJI: Record<string, string> = {
   调研搜索: '🔍',
   内容创作: '✍️',
   前端设计: '🎨',
-  调试排错: '🛠️',
-  'Skill 元治理': '🧰',
-  'Agent 编排': '🤖',
-  群组拆包: '📦',
+  测试调试: '🧪',
+  'Skill·Agent 元治理': '🧰',
+  代码开发: '🔬',
+  文档处理: '📄',
 }
 const EP_SLUG: Record<number, string> = {
   1: '/seasons/s01/ep01-research',
@@ -18,8 +21,8 @@ const EP_SLUG: Record<number, string> = {
   3: '/seasons/s01/ep03-frontend',
   4: '/seasons/s01/ep04-debug',
   5: '/seasons/s01/ep05-meta',
-  6: '/seasons/s01/ep06-orchestration',
-  7: '/seasons/s01/ep07-bundle',
+  6: '/seasons/s01/ep06-codedev',
+  7: '/seasons/s01/ep07-docs',
 }
 
 export interface Player {

@@ -1,7 +1,7 @@
 ---
 title: skills-map
 skill: skills-map
-category: Skill 元治理
+category: Skill·Agent 元治理
 season: 1
 episode: 5
 format: 横评

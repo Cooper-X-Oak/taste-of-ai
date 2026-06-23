@@ -1,9 +1,9 @@
 ---
 title: code-review
 skill: code-review
-category: 群组拆包
+category: 代码开发
 season: 1
-episode: 7
+episode: 6
 format: 特赛
 tier: null
 status: draft

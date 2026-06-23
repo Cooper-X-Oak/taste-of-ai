@@ -1,7 +1,7 @@
 ---
 title: click-path-audit
 skill: click-path-audit
-category: 调试排错
+category: 测试调试
 season: 1
 episode: 4
 format: 横评

@@ -1,8 +1,25 @@
+---
+title: 按 skill 索引
+---
+
+<script setup>
+import { withBase } from 'vitepress'
+import { data } from '../.vitepress/theme/contestants.data'
+const TIER = { S: '🔥S', A: '😋A', B: '😐B', C: '🥱C', D: '🤮D' }
+const all = data
+  .flatMap(g => g.players.map(p => ({ ...p, category: g.category })))
+  .sort((a, b) => a.name.localeCompare(b.name))
+const tl = (t) => (t ? TIER[t] || t : '❓')
+</script>
+
 # 按 skill 索引(A–Z)
 
-> 所有测过的 skill 字母索引,点进对应擂台 / 竖评。实测后逐条填入。
+共 {{ all.length }} 个 skill,点名字进各自文章。段位实测后点亮。
 
-| skill | 段位 | 擂台 / 出处 |
-|---|:--:|---|
-
-_空表待填。_
+<ul class="skill-index">
+  <li v-for="s in all" :key="s.name">
+    <a :href="withBase(s.link)">{{ s.name }}</a>
+    <span class="skill-index__tier" :data-tier="s.tier ?? '?'">{{ tl(s.tier) }}</span>
+    <span class="skill-index__cat">{{ s.category }}</span>
+  </li>
+</ul>

@@ -171,3 +171,16 @@
   .player-card::before,
   .player-card__cover { animation: none; }
 }
+
+/* ===== 按 skill 索引 ===== */
+.skill-index { list-style: none; padding: 0; }
+.skill-index li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 4px;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+.skill-index li a { font-family: var(--vp-font-family-mono); font-weight: 600; }
+.skill-index__tier { font-size: 13px; font-weight: 800; }
+.skill-index__cat { margin-left: auto; font-size: 12px; color: var(--vp-c-text-3); }

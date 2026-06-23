@@ -16,7 +16,9 @@ const tierLabel = (t: string | null) => (t ? TIER[t] ?? t : '❓')
     <h2 class="roster-group__title">
       <span class="roster-group__emoji">{{ g.emoji }}</span>
       {{ g.category }}
-      <a class="roster-group__ep" :href="withBase(g.link)">EP{{ pad(g.episode) }} · {{ g.format }} ›</a>
+      <a v-if="g.episodeLink" class="roster-group__ep" :href="withBase(g.episodeLink)">
+        EP{{ pad(g.episode) }} · {{ g.format }} ›
+      </a>
     </h2>
 
     <div class="roster-grid">
@@ -24,12 +26,12 @@ const tierLabel = (t: string | null) => (t ? TIER[t] ?? t : '❓')
         v-for="p in g.players"
         :key="p.name"
         class="player-card"
-        :href="withBase(g.link)"
+        :href="withBase(p.link)"
       >
         <span class="player-card__shine"></span>
         <div class="player-card__cover">
           <span class="player-card__emoji">{{ g.emoji }}</span>
-          <span class="player-card__stamp">待试吃</span>
+          <span v-if="p.status !== 'done'" class="player-card__stamp">待试吃</span>
         </div>
         <div class="player-card__meta">
           <span class="player-card__name">{{ p.name }}</span>

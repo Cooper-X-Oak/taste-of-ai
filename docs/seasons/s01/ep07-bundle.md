@@ -4,37 +4,30 @@ season: 1
 episode: 7
 category: 群组拆包
 format: 特赛
-contestants: [feature-dev, code-review, frontend-design]
-champion: ""
-avoid: []
 status: draft
-verdicts: {}
-social: { xhs: "", gzh: "" }
 ---
+
+<script setup>
+import { data } from '../../.vitepress/theme/contestants.data'
+const groups = data.filter(g => g.episode === 7)
+</script>
 
 # EP07 · 群组拆包特赛
 
 ::: warning 状态:📋 待测
-本页为骨架。实测后由主播定调填入;后厨只留证、出初稿,锐评一栏留白等主播。
+特赛综述页:拆开测组合冲突。每个群组的详细试吃在各自文章里(点卡片进)。
 :::
 
 **悬念钩子**:打包=真香套餐 还是预制菜陷阱?拆开测组合冲突,埋 S2 钩子。
 
-## 出题(拆包视角)
-群组skill(plugin)把多个 skill 打包 —— 拆开看:子能力各自如何?组合起来有没有互相打架 / 隐藏的雷?—— 待出题。
+## 选手(点卡片进各自文章)
 
-## 选手与菜单(L3 先验)
-- **feature-dev**(全家桶:architect / explorer / reviewer) —
-- **code-review** —
-- **frontend-design** —
+<Roster :groups="groups" />
 
-## 试吃记录(L1 证据)
-实测后填,截图存 `/evidence/s01/ep07/`。
+## 拆包视角
+群组skill 把多个 skill 打包 —— 子能力各自如何?组合起来有没有互相打架 / 隐藏的雷?—— 主播写。
 
-## 评级 & 从夯到拉
-（主播定调）
-
-## 主厨锐评
-（主播填,后厨不代笔）
+## 从夯到拉排名
+（主播定)
 
 ## 一句话外带 & S2 预告

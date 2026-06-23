@@ -4,42 +4,30 @@ season: 1
 episode: 1
 category: 调研搜索
 format: 横评
-contestants: [agent-reach, deep-research, exa-search, market-research, iterative-retrieval]
-champion: ""
-avoid: []
 status: draft
-verdicts: {}
-social: { xhs: "", gzh: "" }
 ---
+
+<script setup>
+import { data } from '../../.vitepress/theme/contestants.data'
+const groups = data.filter(g => g.episode === 1)
+</script>
 
 # EP01 · 调研搜索擂台
 
 ::: warning 状态:📋 待测
-本页为骨架。实测后由主播定调填入;后厨只留证、出初稿,锐评一栏留白等主播。
+擂台综述页:横向对比 + 排名。每个 skill 的详细试吃在各自文章里(点卡片进)。
 :::
 
-**悬念钩子**:开播炸场 —— 全网调研 skill,谁真神谁照骗。
+**悬念钩子**:同样想查点东西,这几个调研 skill 谁真能帮上忙,谁是照骗。
 
-## 标准考题
-横评共用的真实调研任务(锁死不改)—— 待出题。
+## 选手(点卡片进各自文章)
 
-## 选手与菜单(L3 先验)
-逐个抄录官方描述作对照:
-- **agent-reach** —
-- **deep-research** —
-- **exa-search** —
-- **market-research** —
-- **iterative-retrieval** —
+<Roster :groups="groups" />
 
-## 试吃记录(L1 证据)
-实测后填,截图存 `/evidence/s01/ep01/`。
+## 横评对比
+小白姿势谁接得住、专家姿势谁上限高 —— 主播写。
 
-## 六维评分 & 从夯到拉
-
-| 选手 | 上菜速度 | 火候 | 口感 | 回甘 | 摆盘 | 菜单vs实物 | 总⭐ | 段位 |
-|---|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-
-## 主厨锐评
-（主播填,后厨不代笔）
+## 从夯到拉排名
+（主播定)
 
 ## 一句话外带

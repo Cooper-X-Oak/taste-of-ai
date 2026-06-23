@@ -19,7 +19,7 @@ hero:
 features:
   - icon: 🔥
     title: 从夯到拉
-    details: 五段位锐评 —— 夯爆 / 够味 / 垫吧 / 预制菜 / 拉胯。每道菜挂 L1 实测证据才下结论。
+    details: 五段位 —— 夯 / 顶级 / 人上人 / NPC / 拉。每个结论都挂 L1 实测证据才下。
     link: /about/rating
   - icon: ⚔️
     title: 横评擂台 · 竖评深扒
@@ -27,6 +27,6 @@ features:
     link: /about/method
   - icon: 🛡️
     title: 避雷优先
-    details: 第一季专测 skill,主线就一个 —— 哪些是照骗预制菜该避,哪个真香值得装。
+    details: 第一季专测 skill,主线就一个 —— 哪些拉、该避,哪些夯、值得装。
     link: /indexes/avoid
 ---

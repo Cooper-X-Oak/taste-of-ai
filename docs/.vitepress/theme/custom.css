@@ -183,4 +183,20 @@
 }
 .skill-index li a { font-family: var(--vp-font-family-mono); font-weight: 600; }
 .skill-index__tier { font-size: 13px; font-weight: 800; }
+.skill-index__tier[data-tier="S"] { color: #ff4d2e; }
+.skill-index__tier[data-tier="A"] { color: #e0a020; }
+.skill-index__tier[data-tier="B"] { color: #1ba37e; }
+.skill-index__tier[data-tier="C"],
+.skill-index__tier[data-tier="D"] { color: #8a8a8a; }
 .skill-index__cat { margin-left: auto; font-size: 12px; color: var(--vp-c-text-3); }
+
+/* ===== 从夯到拉总榜 / 避雷红榜 ===== */
+.tier-block { margin: 2rem 0; }
+.tier-block > h2 { border: none; padding-top: 0; }
+.tier-flavor { margin-top: -2px; color: var(--vp-c-text-2); font-size: 0.9rem; }
+.tier-empty { color: var(--vp-c-text-3); font-size: 0.88rem; }
+
+.avoid-table { display: table; width: 100%; }
+.avoid-table td[data-tier] { font-weight: 800; white-space: nowrap; }
+.avoid-table td[data-tier="D"] { color: #ff4d2e; }
+.avoid-table td[data-tier="C"] { color: #8a8a8a; }

@@ -5,11 +5,11 @@ title: 按 skill 索引
 <script setup>
 import { withBase } from 'vitepress'
 import { data } from '../.vitepress/theme/contestants.data'
-const TIER = { S: '🔥S', A: '😋A', B: '😐B', C: '🥱C', D: '🤮D' }
 const all = data
   .flatMap(g => g.players.map(p => ({ ...p, category: g.category })))
   .sort((a, b) => a.name.localeCompare(b.name))
-const tl = (t) => (t ? TIER[t] || t : '❓')
+// 段位字母即 key;颜色由 CSS [data-tier] 控,未定级显示 ❓。
+const tl = (t) => t || '❓'
 </script>
 
 # 按 skill 索引(A–Z)

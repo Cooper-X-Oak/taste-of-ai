@@ -1,18 +1,35 @@
+---
+title: 从夯到拉总榜
+---
+
+<script setup>
+import { withBase } from 'vitepress'
+import { data } from '../.vitepress/theme/contestants.data'
+import { TIERS } from '../.vitepress/theme/tiers'
+
+const all = data.flatMap(g => g.players.map(p => ({ ...p, category: g.category })))
+const byTier = (t) => all.filter(p => p.tier === t).sort((a, b) => a.name.localeCompare(b.name))
+const untested = all.filter(p => !p.tier).length
+</script>
+
 # 从夯到拉总榜
 
-> 全手册 skill 实测后的段位总排名。实测前为空,主播定调后逐条填入。
+> 全手册 skill 实测后的段位总排名。段位写进各 skill frontmatter 的 `tier` 字段,本页**自动归位** —— 不用手抄。
 
-## 🔥 夯爆(招牌硬菜)
-_装了回不去的真香。_
+<div v-for="t in TIERS" :key="t.key" class="tier-block">
+  <h2>{{ t.dot }} {{ t.word }}</h2>
+  <p class="tier-flavor">
+    <em>{{ t.flavor }}</em>
+    <template v-if="t.avoid"> → 也收录在 <a :href="withBase('/indexes/avoid')">避雷红榜</a>。</template>
+  </p>
+  <ul v-if="byTier(t.key).length" class="skill-index">
+    <li v-for="s in byTier(t.key)" :key="s.name">
+      <a :href="withBase(s.link)">{{ s.name }}</a>
+      <span class="skill-index__tier" :data-tier="t.key">{{ t.key }}</span>
+      <span class="skill-index__cat">{{ s.category }}</span>
+    </li>
+  </ul>
+  <p v-else class="tier-empty">— 暂无 —</p>
+</div>
 
-## 😋 够味(家常好菜)
-_稳,值得常备。_
-
-## 😐 垫吧(能下饭)
-_凑合,有平替看场景。_
-
-## 🥱 预制菜(照骗)
-_菜单天花乱坠,入口塑料味。_ → 也收录在 [避雷红榜](./avoid)。
-
-## 🤮 拉胯(黑暗料理)
-_避雷,别碰。_ → 也收录在 [避雷红榜](./avoid)。
+<p class="tier-empty">还有 {{ untested }} 个 skill 待试吃定级。</p>

@@ -39,12 +39,13 @@ npm run docs:build    # 构建静态站
 
 ## 第一季排期
 
-Skill 专场 · 避雷季,8 期紧凑赛制:调研搜索 → 内容创作 → 前端设计 → 调试排错 →
-Skill 元治理 → Agent 编排 → 群组拆包特赛 → 季终总决赛。详见 [本季导航](docs/seasons/s01/index.md)。
+Skill 专场 · 避雷季,8 期紧凑赛制。品类与排期以 [本季导航](docs/seasons/s01/index.md) 为准
+(分类正迁移到「官方 skill + 官方插件市场」基准)。
 
 ## 评级:从夯到拉
 
-🔥 夯爆 · 😋 够味 · 😐 垫吧 · 🥱 预制菜 · 🤮 拉胯 —— 每个段位都挂实测证据。
+网络通用 tier 黑话:**夯 · 顶级 · 人上人 · NPC · 拉** —— 每个段位都挂实测证据。
+详见 [评级体系](docs/about/rating.md)(定义源:`docs/.vitepress/theme/tiers.ts`)。
 
 ---
 

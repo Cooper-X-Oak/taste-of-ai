@@ -7,6 +7,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: '舌尖上的AI',
   description: 'AI 能力单元的硬核试吃 · 从夯到拉锐评',
+  base: '/taste-of-ai/',
   cleanUrls: true,
   lastUpdated: true,
 
